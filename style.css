@@ -1,0 +1,97 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header.bg-primary {
+  background: linear-gradient(to right, #1d3557, #457b9d);
+}
+
+.btn-warning {
+  font-weight: 600;
+}
+
+.btn-outline-light:hover {
+  background-color: #f1c40f;
+  color: #1d3557;
+}
+
+#about p {
+  color: #333;
+  line-height: 1.7;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.card-text {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-section {
+  min-height: 90vh;
+  background: 
+    linear-gradient(to right, rgba(29, 53, 87, 0.9), rgba(69, 123, 157, 0.9)),
+    url('images/hero-bg.jpg') center/cover no-repeat;
+  padding: 4rem 1rem;
+}
+
+.hero-section h1,
+.hero-section p {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), 
+              url("images/hero-bg.png") no-repeat center center;
+  background-size: cover;
+  min-height: auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.hero-image h1,
+.hero-image p {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+#testimonials img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 3px solid #1d3557;
+}
+
+#testimonialCarousel .carousel-inner {
+  padding-left: 40px;  /* create space for left control */
+  padding-right: 40px; /* create space for right control */
+}
+
+
+#testimonials blockquote {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+#testimonials .blockquote-footer {
+  color: #666;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.3); /* darken background behind arrow */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
